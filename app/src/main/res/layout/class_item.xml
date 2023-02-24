@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/blue_5"
+    >
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingHorizontal="24dp"
+           android:paddingVertical="8dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Class 1"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:textColor="@color/primary"
+               android:id="@+id/tv_className"
+               android:layout_marginBottom="4dp"
+               />
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical"
+               >
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_project"
+                   android:layout_marginRight="10dp"
+                   app:tint="@color/primary"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Software Project"
+                   android:layout_marginRight="4dp"
+                   android:textColor="@color/primary"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="(SWP391)"
+                   android:textColor="@color/primary"
+                   android:id="@+id/tv_classCode"/>
+           </LinearLayout>
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_user_circle"
+                   android:layout_marginRight="10dp"
+                   app:tint="@color/primary"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Huongntc2@fpt.edu.vn"
+                   android:textColor="@color/primary"
+                   android:id="@+id/tv_lectureEmail"
+
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_user_circle"
+                   android:layout_marginRight="10dp"
+                   app:tint="@color/primary"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Number of students: "
+                   android:textColor="@color/primary"
+                   android:layout_marginRight="4dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:tooltipText="35"
+                   android:id="@+id/tv_numberOfStudent"
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FPLMS</string>
+    <string name="login_btn_text">Sign in with FPT email</string>
+    <string name="img_des">Login Banner</string>
+    <string name="server_client_id">901584085058-qdg6ks13u77ausvjj0g09lg41hah8ig7.apps.googleusercontent.com</string>
+</resources>
